@@ -1,0 +1,12 @@
+{
+    "extends": "@tsconfig/node22",
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["./src/*"]
+        }
+    }
+}

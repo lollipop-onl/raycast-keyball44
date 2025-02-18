@@ -1,0 +1,37 @@
+{
+	"$schema": "https://www.raycast.com/schemas/extension.json",
+	"name": "keyball44-keymaps",
+	"title": "Keyball 44 Keymaps",
+	"description": "Keyball 44 のキーマップを表示します。",
+	"license": "MIT",
+	"author": "simochee",
+	"type": "module",
+	"private": true,
+	"icon": "icon.svg",
+	"scripts": {
+		"dev": "ray develop"
+	},
+	"commands": [
+		{
+			"name": "show-keymaps",
+			"title": "キーマップを表示",
+			"description": "Keyball 44 のキーマップを表示します。",
+			"mode": "view"
+		}
+	],
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@tsconfig/node22": "^22.0.0",
+		"@types/react": "^19.0.10",
+		"typescript": "^5.7.3"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"@biomejs/biome"
+		]
+	},
+	"dependencies": {
+		"@raycast/api": "^1.91.2",
+		"@raycast/utils": "^1.18.1"
+	}
+}
