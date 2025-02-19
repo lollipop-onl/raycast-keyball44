@@ -27,7 +27,7 @@ export default function Command() {
     }
     
     return <Detail
-        markdown={`![](keymaps/${showAnnotation ? 'annotation' : 'layer'}_${layer}.png)`}
+        markdown={`![](keymap/${showAnnotation ? 'annotation' : 'layer'}_${layer}.png)`}
         navigationTitle={`Keyball 44 - Layer ${layer}`}
         actions={
             <ActionPanel title="Keymaps">
